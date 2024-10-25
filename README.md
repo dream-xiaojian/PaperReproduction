@@ -2,7 +2,7 @@
 
 # 复现论文
 
-- DeepDiffuse
+- DeepDiffuse https://github.com/dream-xiaojian/PaperReproduction/blob/master/deep-diffuse/README.md
 
 # 环境
 
