@@ -1,0 +1,5 @@
+using attention:True
+running glimpse attention model
+using attention:True
+{'data_dir': 'data', 'dataset_name': 'twitter', 'batch_size': 20, 'seq_len': 100, 'win_len': 90, 'cell_type': 'glimpse', 'epochs': 1, 'learning_rate': 0.001, 'state_size': 256, 'node_pred': True, 'shuffle': True, 'embedding_size': 256, 'n_samples': 20, 'use_attention': True, 'time_loss': 'mse', 'num_glimpse': 6, 'hl_size': 256, 'hg_size': 256, 'g_size': 256, 'loc_dim': 1, 'clipping_val': 3.0, 'min_lr': 0.0001, 'test_freq': 10, 'disp_freq': 1, 'node_size': 5942, 'max_diff': 651676.15000000002, 'n_train': 6285}
+[629/315] epoch: 1, batch: 314, train loss: 8863.2932, node loss: 2725.6993, time loss: 1253549.8762
