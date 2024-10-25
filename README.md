@@ -1,6 +1,6 @@
 #复现 
 
-# 复现论文
+# 复现论文笔记
 
 - DeepDiffuse https://github.com/dream-xiaojian/PaperReproduction/blob/master/deep-diffuse/README.md
 
