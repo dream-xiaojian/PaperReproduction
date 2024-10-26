@@ -16,11 +16,11 @@
 - 代码注释
 - 代码层面：数据处理理解
 - 代码层面：模型构建理解（**部分完成**）
+- 存在问题
 
 ## 配置与运行
 
 > 如何将项目跑起来
-
 #### 配置
 
 > 因为DeepDiffuse（python3.6.2）是并没有给配置库文件，因此根据其python版本和发表时间，构建了配置库文件见requirements.txt
@@ -34,6 +34,9 @@ pip install -r requirements.txt
 #### 运行
 
 运行main.py模块，其结果展示在glimpse-twitter.log日志中，同时params.ini文件可以对模型的参数进行配置
+
+![image.png](https://cdn.jsdelivr.net/gh/dream-xiaojian/DrawingBed@master/20241026094808.png)
+
 
 ## 数据处理代码理解
 
@@ -120,6 +123,8 @@ tensorboard --logdir=./Logs --host=127.0.0.1
 > 虽然通过tensorboard将其计算图打开，还是太复杂
 
 
+## 存在问题
 
-
-
+（1）目前模型部分代码细节（tensorflow框架下进行）并不是很理解
+（2）公式和相应的代码的不太理解（主要是在目标函数方面）
+（3）代码复现结果并没有出来，目前正改为云端跑

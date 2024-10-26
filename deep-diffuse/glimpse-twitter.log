@@ -1,5 +1,16 @@
 using attention:True
 running glimpse attention model
 using attention:True
-{'data_dir': 'data', 'dataset_name': 'twitter', 'batch_size': 20, 'seq_len': 100, 'win_len': 90, 'cell_type': 'glimpse', 'epochs': 1, 'learning_rate': 0.001, 'state_size': 256, 'node_pred': True, 'shuffle': True, 'embedding_size': 256, 'n_samples': 20, 'use_attention': True, 'time_loss': 'mse', 'num_glimpse': 6, 'hl_size': 256, 'hg_size': 256, 'g_size': 256, 'loc_dim': 1, 'clipping_val': 3.0, 'min_lr': 0.0001, 'test_freq': 10, 'disp_freq': 1, 'node_size': 5942, 'max_diff': 651676.15000000002, 'n_train': 6285}
-[629/315] epoch: 1, batch: 314, train loss: 8863.2932, node loss: 2725.6993, time loss: 1253549.8762
+{'data_dir': 'data', 'dataset_name': 'twitter', 'batch_size': 20, 'seq_len': 100, 'win_len': 90, 'cell_type': 'glimpse', 'epochs': 10, 'learning_rate': 0.001, 'state_size': 256, 'node_pred': True, 'shuffle': True, 'embedding_size': 256, 'n_samples': 20, 'use_attention': True, 'time_loss': 'mse', 'num_glimpse': 6, 'hl_size': 256, 'hg_size': 256, 'g_size': 256, 'loc_dim': 1, 'clipping_val': 3.0, 'min_lr': 0.0001, 'test_freq': 10, 'disp_freq': 1, 'node_size': 5942, 'max_diff': 651676.15000000002, 'n_train': 6285}
+[629/3150] epoch: 1, batch: 314, train loss: 8861.4717, node loss: 2725.3343, time loss: 1255524.0547
+[944/3150] epoch: 2, batch: 314, train loss: 6220.0869, node loss: 2657.1160, time loss: 1255351.3844
+[1259/3150] epoch: 3, batch: 314, train loss: 4755.3315, node loss: 2607.9526, time loss: 1254814.6572
+[1574/3150] epoch: 4, batch: 314, train loss: 3916.4879, node loss: 2562.2340, time loss: 1255534.7197
+[1889/3150] epoch: 5, batch: 314, train loss: 3438.1715, node loss: 2537.6749, time loss: 1255542.4030
+[2204/3150] epoch: 6, batch: 314, train loss: 3152.4576, node loss: 2516.0225, time loss: 1255466.4190
+[2519/3150] epoch: 7, batch: 314, train loss: 2985.2270, node loss: 2504.9838, time loss: 1255532.9314
+[2834/3150] epoch: 8, batch: 314, train loss: 2876.5924, node loss: 2490.6915, time loss: 1255527.5281
+[3149/3150] epoch: 9, batch: 314, train loss: 2803.8551, node loss: 2477.7584, time loss: 1253796.9688
+[3464/3150] epoch: 10, batch: 314, train loss: 2753.3190, node loss: 2467.4676, time loss: 1255400.4280
+{'map@10': 0.057396490724803982, 'map@50': 0.06162397662116699, 'map@100': 0.062060689124206245, 'hits@10': 0.12891566265060242, 'hits@50': 0.21265060240963857, 'hits@100': 0.24397590361445784, 'time_mse': -0.0}
+{'hits@10': 0.12891566265060242, 'map@10': 0.057396490724803982, 'hits@50': 0.21265060240963857, 'map@50': 0.06162397662116699, 'hits@100': 0.24397590361445784, 'map@100': 0.062060689124206245, 'time_mse': -0.0}
