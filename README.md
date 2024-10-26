@@ -1,8 +1,8 @@
 #复现 
 
-# 复现论文笔记
+# 复现论文笔记汇总
 
-- DeepDiffuse https://github.com/dream-xiaojian/PaperReproduction/blob/master/deep-diffuse/README.md
+- DeepDiffuse [https://github.com/dream-xiaojian/PaperReproduction/blob/master/deep-diffuse/README.md](https://github.com/dream-xiaojian/PaperReproduction/blob/master/deep-diffuse/README.md)
 
 # 环境
 
@@ -81,5 +81,4 @@ conda install package-name=2.3.4 -n some-environment
 
 ## 解决方案 - 云端
 
-...
 
